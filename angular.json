@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/",
+            "outputPath": "dist/Testing",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -122,11 +122,15 @@
               "devServerTarget": "Testing:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
     }
   },
-  "defaultProject": "dist/ngProj",
+  "defaultProject": "Testing",
   "cli": {
     "analytics": "2b93ebe6-7b75-4a17-8962-433305f6f48c"
   }
