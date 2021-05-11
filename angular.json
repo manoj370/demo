@@ -130,7 +130,7 @@
       }
     }
   },
-  "defaultProject": "ngProj",
+  "defaultProject": "Testing",
   "cli": {
     "analytics": "2b93ebe6-7b75-4a17-8962-433305f6f48c"
   }
